@@ -20,19 +20,6 @@ function envio(){
     }
 }
 
-// function peso(){
-//     let peso = parseInt(prompt("Ingrese el peso de su paquete: "))
-//     while(peso <= 70){
-//         let peso_envio = parseInt(prompt("Ingrese el peso del siguiente paquete: "))
-//         peso = peso + peso_envio
-//         if(peso > 70){
-//             alert("Supero el peso maximo")
-//             break;
-//         }
-//         alert("Su peso actual es de: " + peso)
-//     }
-// }
-
 function peso(){
     let peso = parseInt(prompt("Ingrese el peso de su paquete: "))
     while(peso <= 70){
